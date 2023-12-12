@@ -1,0 +1,235 @@
+/* barre latérale */
+.col-share{
+    position: relative;
+    .aside-share{
+        position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 1020;
+    margin-left: 40px;
+    top: 105px !important;
+    & h6{
+        font-size: 16px;
+        font-weight: $font-medium;
+    }
+    .d-grid{
+        margin-bottom: 25px;
+    }
+    & p{
+        font-size: 16px;
+    }
+
+    .icons-share{
+        margin-bottom: 20px;
+    }
+    }
+}
+
+.col-newsletter{
+    position: relative; 
+    .aside-newsletter{
+        margin-left: 40px;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        z-index: 1020;
+        & form{
+            .input-group{
+                margin-bottom: 1rem!important;
+            
+            }
+        }
+        .col-forget-share{
+            margin-top: 20px;
+            & h6{
+                margin-bottom: 20px;
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 320px){
+    .col-share{
+        position: relative;
+        .aside-share{
+        position: static;
+        top: 0;
+        z-index: 1020;
+        margin-left: 12px;
+        margin-right: 12px;
+        top: 105px !important;
+        & h6{
+            font-size: 16px;
+            font-weight: $font-medium;
+        }
+        .d-grid{
+            margin-bottom: 25px;
+        }
+        & p{
+            font-size: 16px;
+        }
+    
+        .icons-share{
+            margin-bottom: 20px;
+        }
+        }
+    }
+    
+    .col-newsletter{
+        position: relative; 
+        .aside-newsletter{
+            margin-left: 0px;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            z-index: 1020;
+            & form{
+                .input-group{
+                    margin-bottom: 1rem!important;
+                }
+            }
+            .col-forget-share{
+                margin-top: 20px;
+                & h6{
+                    margin-bottom: 20px;
+                }
+            }
+    
+        }
+    }
+
+}
+
+@media screen and (max-width: 375px){
+    .col-share{
+        position: relative;
+        .aside-share{
+        position: static;
+        top: 0;
+        z-index: 1020;
+        margin-left: 12px;
+        margin-right: 12px;
+        top: 105px !important;
+        & h6{
+            font-size: 16px;
+            font-weight: $font-medium;
+        }
+        .d-grid{
+            margin-bottom: 25px;
+        }
+        & p{
+            font-size: 16px;
+        }
+    
+        .icons-share{
+            margin-bottom: 20px;
+        }
+        }
+    }
+    
+    .col-newsletter{
+        position: relative; 
+        .aside-newsletter{
+            margin-left: 35px;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            z-index: 1020;
+            & form{
+                .input-group{
+                    margin-bottom: 1rem!important;
+                }
+            }
+            .col-forget-share{
+                margin-top: 20px;
+                & h6{
+                    margin-bottom: 20px;
+                }
+            }
+    
+        }
+    }
+
+}
+
+@media screen and (max-width: 425px){
+    .col-share{
+        position: relative;
+        .aside-share{
+        position: static;
+        top: 0;
+        z-index: 1020;
+        margin-left: 12px;
+        margin-right: 12px;
+        top: 105px !important;
+        & h6{
+            font-size: 16px;
+            font-weight: $font-medium;
+        }
+        .d-grid{
+            margin-bottom: 25px;
+        }
+        & p{
+            font-size: 16px;
+        }
+    
+        .icons-share{
+            margin-bottom: 20px;
+        }
+        }
+    }
+    
+    .col-newsletter{
+        position: relative; 
+        .aside-newsletter{
+            margin-left: 35px;
+            position: -webkit-sticky;
+            position: sticky;
+            top: 0;
+            z-index: 1020;
+            & form{
+                .input-group{
+                    margin-bottom: 1rem!important;
+                }
+            }
+            .col-forget-share{
+                margin-top: 20px;
+                & h6{
+                    margin-bottom: 20px;
+                }
+            }
+    
+        }
+    }
+
+}
+
+@media screen and (max-width: 768px){
+    .col-share{
+        position: relative;
+        .aside-share{
+        position: static;
+        top: 0;
+        z-index: 1020;
+        margin-left: 0px;
+        margin-right: 0px;
+        top: 105px !important;
+        & h6{
+            font-size: 16px;
+            font-weight: $font-medium;
+        }
+        .d-grid{
+            margin-bottom: 25px;
+        }
+        & p{
+            font-size: 16px;
+        }
+    
+        .icons-share{
+            margin-bottom: 20px;
+        }
+        }
+    }
+    
+}

@@ -1,0 +1,826 @@
+/* blocs */
+/* page d'accueil */
+.bloc-category-title{
+    & h2{
+        margin-bottom: 20px;
+    }
+}
+.bloc-avantages{
+    margin-left: 8.33333333%;
+    .bloc-avantages-content{
+        align-items: center;
+        .available-home{
+            margin-top: 50px;
+        }
+        .card-avantages{
+            margin-right: 25px;
+            border: 0px solid ;
+            & .card-body{
+               padding: 24px;
+               text-align: center;
+               & span{
+                font-weight: $font-bold;
+                font-size: 32px;
+                color: $colour-hover;
+               }
+               & img{
+                width: 50px;
+               }
+               .spectateurs{
+                width: 168px;
+               }
+            }
+        }
+    }
+}
+
+.bloc-actualites-titre{
+    align-items: center;
+    justify-content: space-between;
+}
+.bloc-actualites{
+    margin-top: 50px;
+}
+
+/* page à propos */
+.bloc-apropos{
+    padding-top: 150px;
+    padding-right: 50px;
+    h1{
+        margin-top: 29px;
+    }
+}
+.bloc-apropos-infos{
+    margin-top: 50px;
+    & img{
+        width: 50px;
+        padding-bottom: 20px;
+    }
+    & h2{
+        font-size: 32px;
+        color:$colour-hover;
+    }
+    & p{
+        font-size: 16px;
+        font-weight: $font-medium;
+    }
+}
+.bloc-apropos-photos{
+    padding-top: 3rem!important;
+    .col-apropos1{
+        padding-top: 3rem!important;
+        & img{
+            margin-bottom: 1.5rem!important;
+        }
+    }
+    .col-apropos2{
+        margin-left: 25px;
+        & img{
+            margin-bottom: 1.5rem!important;
+        }
+    }
+}
+
+
+/* page du film */
+.bloc-infos{
+    margin-top: 50px;
+    & h3{
+        margin-bottom: 20px;
+    }
+    .container{
+        padding: 0;
+    }
+    & strong{
+      font-weight: $font-medium;
+    }
+}
+
+
+.bloc-tags{
+    padding: 0;
+    margin: 0;
+    .tags-titre{
+        margin-top: 16px;
+        margin-right: 50px;
+        & strong{
+            font-weight: $font-medium;
+            font-size: 18px;
+        }
+    }
+}
+
+
+
+/* page contact */
+.bloc-contact{
+    margin-top: 50px;
+    & h1{
+        margin-bottom: 20px;
+    }
+   
+    .bg-icons-contact{
+        background-color: $colour-body;
+        line-height: 1!important;
+        padding: 1rem!important;
+        font-size: 25px;
+        border-radius: 50%;
+    }
+    .bg-icons-contact2{
+        background-color: $colour-body;
+        line-height: 1!important;
+        padding: 1rem!important;
+        font-size: 30px;
+        border-radius: 50%;
+    }
+    & h2{
+        font-size: 25px;
+    }
+
+}
+
+.bloc-contact-form{
+    padding-top: 50px;
+}
+
+/* Responsive */
+
+
+@media screen and (max-width: 320px) {
+    /* page d'accueil */
+    .bloc-apropos-home{
+        & a{
+            width: 100%;
+        }
+    }
+    .bloc-category-title{
+        & h2{
+            margin-bottom: 20px;
+        }
+        margin-bottom: 20px;
+        & a{
+            width: 100%;
+        }
+    }
+
+    .bloc-categories{
+        flex-direction: column;
+    }
+
+    .bloc-titre-h2-button{
+        flex-direction: column;
+        & a{
+            margin-top: 20px;
+            width: 100%;
+        }
+    }
+
+
+
+
+
+.bloc-avantages{
+    margin-top: 50px;
+    margin-left: 0;
+    .bloc-avantages-content{
+        align-items: center;
+        .free-home{
+            margin-top: 20px;
+        }
+        .available-home{
+            margin-top: 20px;
+        }
+        .card-avantages{
+            margin-right: 0;
+            border: 0px solid ;
+            & .card-body{
+               padding: 24px;
+               text-align: center;
+               & span{
+                font-weight: $font-bold;
+                font-size: 32px;
+                color: $colour-hover;
+               }
+               & img{
+                width: 50px;
+               }
+               .spectateurs{
+                width: 168px;
+               }
+            }
+        }
+    }
+}
+.bloc-actualites{
+    margin-top: 50px;
+}
+            
+    /* page à propos */
+    .bloc-apropos{
+        padding-top: 0;
+        padding-right: 0;
+        h1{
+            margin-top: 29px;
+        }
+    }
+    .bloc-apropos-infos{
+        margin-top: 50px;
+        & img{
+            width: 50px;
+            padding-bottom: 20px;
+        }
+        & h2{
+            font-size: 32px;
+            color:$colour-hover;
+        }
+        & p{
+            font-size: 16px;
+            font-weight: $font-medium;
+        }
+    }
+    .bloc-apropos-photos{
+        padding-top: 3rem!important;
+        .col-apropos1{
+            padding-top: 3rem!important;
+            & img{
+                margin-bottom: 0;
+            }
+        }
+        .col-apropos2{
+            margin-left: 0;
+            & img{
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    /* page de film ou article */
+    .bloc-tags{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        .tags-titre{
+            margin-top: 16px;
+            margin-right: 50px;
+            & strong{
+                font-weight: $font-medium;
+                font-size: 18px;
+            }
+        }
+
+        
+    }
+
+    .bloc-comment-form{
+        padding: 0;
+    }
+
+    .bloc-titre-h2-button2{
+        flex-direction: column;
+        margin-bottom: 20px;
+        & a{
+            margin-top: 20px;
+            width: 100%;
+        }
+    }
+
+    /* page contact */
+.bloc-contact{
+    margin-top: 0px;
+    & h1{
+        margin-bottom: 20px;
+    }
+   
+    .bg-icons-contact{
+        background-color: $colour-body;
+        line-height: 1!important;
+        padding: 1rem!important;
+        font-size: 25px;
+        border-radius: 50%;
+    }
+    .bg-icons-contact2{
+        background-color: $colour-body;
+        line-height: 1!important;
+        padding: 1rem!important;
+        font-size: 30px;
+        border-radius: 50%;
+    }
+    & h2{
+        font-size: 20px;
+    }
+
+}
+
+.bloc-contact-form{
+    padding-top:0px;
+}
+
+    
+}
+
+@media screen and (max-width: 375px) {
+    /* page d'accueil */
+    .bloc-apropos-home{
+        & a{
+            width: 100%;
+        }
+    }
+    .bloc-category-title{
+        & h2{
+            margin-bottom: 20px;
+        }
+        margin-bottom: 20px;
+        & a{
+            width: 100%;
+        }
+    }
+
+    .bloc-categories{
+        flex-direction: column;
+    }
+
+    .bloc-titre-h2-button{
+        flex-direction: column;
+        & a{
+            margin-top: 20px;
+            width: 100%;
+        }
+    }
+
+
+
+
+
+.bloc-avantages{
+    margin-top: 50px;
+    margin-left: 0;
+    .bloc-avantages-content{
+        align-items: center;
+        .free-home{
+            margin-top: 20px;
+        }
+        .available-home{
+            margin-top: 20px;
+        }
+        .card-avantages{
+            margin-right: 0;
+            border: 0px solid ;
+            & .card-body{
+               padding: 24px;
+               text-align: center;
+               & span{
+                font-weight: $font-bold;
+                font-size: 32px;
+                color: $colour-hover;
+               }
+               & img{
+                width: 50px;
+               }
+               .spectateurs{
+                width: 168px;
+               }
+            }
+        }
+    }
+}
+.bloc-actualites{
+    margin-top: 50px;
+}
+            
+    /* page à propos */
+    .bloc-apropos{
+        padding-top: 0;
+        padding-right: 0;
+        h1{
+            margin-top: 29px;
+        }
+    }
+    .bloc-apropos-infos{
+        margin-top: 50px;
+        & img{
+            width: 50px;
+            padding-bottom: 20px;
+        }
+        & h2{
+            font-size: 32px;
+            color:$colour-hover;
+        }
+        & p{
+            font-size: 16px;
+            font-weight: $font-medium;
+        }
+    }
+    .bloc-apropos-photos{
+        padding-top: 3rem!important;
+        .col-apropos1{
+            padding-top: 3rem!important;
+            & img{
+                margin-bottom: 0;
+            }
+        }
+        .col-apropos2{
+            margin-left: 0;
+            & img{
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    /* page de film ou article */
+    .bloc-tags{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        .tags-titre{
+            margin-top: 16px;
+            margin-right: 50px;
+            & strong{
+                font-weight: $font-medium;
+                font-size: 18px;
+            }
+        }
+
+        
+    }
+
+    .bloc-comment-form{
+        padding: 0;
+    }
+
+    .bloc-titre-h2-button2{
+        flex-direction: column;
+        margin-bottom: 20px;
+        & a{
+            margin-top: 20px;
+            width: 100%;
+        }
+    }
+
+    /* page contact */
+.bloc-contact{
+    margin-top: 0px;
+    & h1{
+        margin-bottom: 20px;
+    }
+   
+    .bg-icons-contact{
+        background-color: $colour-body;
+        line-height: 1!important;
+        padding: 1rem!important;
+        font-size: 25px;
+        border-radius: 50%;
+    }
+    .bg-icons-contact2{
+        background-color: $colour-body;
+        line-height: 1!important;
+        padding: 1rem!important;
+        font-size: 30px;
+        border-radius: 50%;
+    }
+    & h2{
+        font-size: 20px;
+    }
+
+}
+
+.bloc-contact-form{
+    padding-top:0px;
+}
+
+    
+}
+
+@media screen and (max-width: 425px) {
+    /* page d'accueil */
+    .bloc-apropos-home{
+        & a{
+            width: 100%;
+        }
+    }
+    .bloc-category-title{
+        & h2{
+            margin-bottom: 20px;
+        }
+        margin-bottom: 20px;
+        & a{
+            width: 100%;
+        }
+    }
+
+    .bloc-categories{
+        flex-direction: column;
+    }
+
+    .bloc-titre-h2-button{
+        flex-direction: column;
+        & a{
+            margin-top: 20px;
+            width: 100%;
+        }
+    }
+
+
+
+
+
+.bloc-avantages{
+    margin-top: 50px;
+    margin-left: 0;
+    .bloc-avantages-content{
+        align-items: center;
+        .free-home{
+            margin-top: 20px;
+        }
+        .available-home{
+            margin-top: 20px;
+        }
+        .card-avantages{
+            margin-right: 0;
+            border: 0px solid ;
+            & .card-body{
+               padding: 24px;
+               text-align: center;
+               & span{
+                font-weight: $font-bold;
+                font-size: 32px;
+                color: $colour-hover;
+               }
+               & img{
+                width: 50px;
+               }
+               .spectateurs{
+                width: 168px;
+               }
+            }
+        }
+    }
+}
+.bloc-actualites{
+    margin-top: 50px;
+}
+            
+    /* page à propos */
+    .bloc-apropos{
+        padding-top: 0;
+        padding-right: 0;
+        h1{
+            margin-top: 29px;
+        }
+    }
+    .bloc-apropos-infos{
+        margin-top: 50px;
+        & img{
+            width: 50px;
+            padding-bottom: 20px;
+        }
+        & h2{
+            font-size: 32px;
+            color:$colour-hover;
+        }
+        & p{
+            font-size: 16px;
+            font-weight: $font-medium;
+        }
+    }
+    .bloc-apropos-photos{
+        padding-top: 3rem!important;
+        .col-apropos1{
+            padding-top: 3rem!important;
+            & img{
+                margin-bottom: 0;
+            }
+        }
+        .col-apropos2{
+            margin-left: 0;
+            & img{
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    /* page de film ou article */
+    .bloc-tags{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        .tags-titre{
+            margin-top: 16px;
+            margin-right: 50px;
+            & strong{
+                font-weight: $font-medium;
+                font-size: 18px;
+            }
+        }
+
+        
+    }
+
+    .bloc-comment-form{
+        padding: 0;
+    }
+
+    .bloc-titre-h2-button2{
+        flex-direction: column;
+        margin-bottom: 20px;
+        & a{
+            margin-top: 20px;
+            width: 100%;
+        }
+    }
+
+    /* page contact */
+.bloc-contact{
+    margin-top: 0px;
+    & h1{
+        margin-bottom: 20px;
+    }
+   
+    .bg-icons-contact{
+        background-color: $colour-body;
+        line-height: 1!important;
+        padding: 1rem!important;
+        font-size: 25px;
+        border-radius: 50%;
+    }
+    .bg-icons-contact2{
+        background-color: $colour-body;
+        line-height: 1!important;
+        padding: 1rem!important;
+        font-size: 30px;
+        border-radius: 50%;
+    }
+    & h2{
+        font-size: 20px;
+    }
+
+}
+
+.bloc-contact-form{
+    padding-top:0px;
+}
+
+    
+}
+
+@media screen and (max-width: 768px) {
+    /* page d'accueil */
+    .bloc-apropos-home{
+        & a{
+            width: 100%;
+        }
+    }
+    .bloc-category-title{
+        & h2{
+            margin-bottom: 20px;
+        }
+        margin-bottom: 20px;
+       
+    }
+
+    .bloc-categories{
+        flex-direction: column;
+    }
+
+   
+
+
+
+
+.bloc-avantages{
+    margin-top: 50px;
+    margin-left: 0;
+    .bloc-avantages-content{
+        align-items: center;
+        .free-home{
+            margin-top: 20px;
+        }
+        .available-home{
+            margin-top: 20px;
+        }
+        .card-avantages{
+            margin-right: 0;
+            border: 0px solid ;
+            & .card-body{
+               padding: 24px;
+               text-align: center;
+               & span{
+                font-weight: $font-bold;
+                font-size: 32px;
+                color: $colour-hover;
+               }
+               & img{
+                width: 50px;
+               }
+               .spectateurs{
+                width: 168px;
+               }
+            }
+        }
+    }
+}
+.bloc-actualites{
+    margin-top: 50px;
+}
+            
+    /* page à propos */
+    .bloc-apropos{
+        padding-top: 0;
+        padding-right: 0;
+        h1{
+            margin-top: 29px;
+        }
+    }
+    .bloc-apropos-infos{
+        margin-top: 50px;
+        & img{
+            width: 50px;
+            padding-bottom: 20px;
+        }
+        & h2{
+            font-size: 32px;
+            color:$colour-hover;
+        }
+        & p{
+            font-size: 16px;
+            font-weight: $font-medium;
+        }
+    }
+    .bloc-apropos-photos{
+        padding-top: 3rem!important;
+        .col-apropos1{
+            padding-top: 3rem!important;
+            & img{
+                margin-bottom: 0;
+            }
+        }
+        .col-apropos2{
+            margin-left: 0;
+            & img{
+                margin-bottom: 0;
+            }
+        }
+    }
+
+    /* page de film ou article */
+    .bloc-tags{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        .tags-titre{
+            margin-top: 16px;
+            margin-right: 50px;
+            & strong{
+                font-weight: $font-medium;
+                font-size: 18px;
+            }
+        }
+
+        
+    }
+
+    .bloc-comment-form{
+        padding: 0;
+    }
+
+    .bloc-titre-h2-button2{
+        flex-direction: column;
+        margin-bottom: 20px;
+        & a{
+            margin-top: 20px;
+            width: 100%;
+        }
+    }
+
+    /* page contact */
+.bloc-contact{
+    margin-top: 0px;
+    & h1{
+        margin-bottom: 20px;
+    }
+   
+    .bg-icons-contact{
+        background-color: $colour-body;
+        line-height: 1!important;
+        padding: 1rem!important;
+        font-size: 25px;
+        border-radius: 50%;
+    }
+    .bg-icons-contact2{
+        background-color: $colour-body;
+        line-height: 1!important;
+        padding: 1rem!important;
+        font-size: 30px;
+        border-radius: 50%;
+    }
+    & h2{
+        font-size: 20px;
+    }
+
+}
+
+.bloc-contact-form{
+    padding-top:0px;
+}
+
+    
+}

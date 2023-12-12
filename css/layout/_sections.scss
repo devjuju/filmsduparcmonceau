@@ -1,0 +1,170 @@
+/* sections */
+
+/* page d'accueil */
+.section-gallery{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.section-category{
+    padding-bottom: 150px;
+}
+
+.section-apropos-home{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.section-actualites-home{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+.section-fiche-film{
+    padding-top: 50px;
+    padding-bottom: 0;
+  
+}
+
+.section-commentaires{
+    padding-bottom: 0;
+}
+
+.section-infos-header{
+    margin-top: 20px;
+    padding-top:0;
+    padding-bottom: 0;
+    & h1{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+/* page à propos */
+.section-page-apropos{
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.section-partenaires{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    & h2{
+        text-align: left;
+        margin-top: 13px;
+    }
+    & img{
+        width: 100px;
+        margin-right: auto!important;
+        margin-left: auto!important;
+        margin-bottom: 1rem!important;
+    }
+    & a{
+        color: $colour-hover;
+        text-transform: uppercase;
+        font-weight: $font-medium;
+        &:hover{
+            color: $colour-title; 
+        }
+    }
+   
+    .partenaire01{
+        padding-top: 27px;
+    }
+ 
+    .partenaire03{
+        padding-top: 24px;
+    }
+}
+
+.section-testimonals{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+/* Film et article */
+.section-grid-produit{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-produits-lies{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+
+/* page de contact */
+.section-contact{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+@media screen and (max-width: 375px) {
+  
+    /* page d'accueil */
+.section-gallery{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-category{
+    padding-bottom: 50px;
+}
+
+.section-apropos-home{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-actualites-home{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+/* page à propos */
+.section-page-apropos{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-partenaires{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    & h2{
+        text-align: left;
+        margin-top: 13px;
+    }
+    & img{
+        width: 100px;
+        margin-right: auto!important;
+        margin-left: auto!important;
+        margin-bottom: 1rem!important;
+    }
+    & a{
+        color: $colour-hover;
+        text-transform: uppercase;
+        font-weight: $font-medium;
+        &:hover{
+            color: $colour-title; 
+        }
+    }
+   
+    .partenaire01{
+        padding-top: 27px;
+    }
+ 
+    .partenaire03{
+        padding-top: 24px;
+    }
+}
+
+.section-testimonals{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+}
+

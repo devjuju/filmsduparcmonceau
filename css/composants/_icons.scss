@@ -1,0 +1,38 @@
+/* les icones */
+.bi-map{
+    color: #AA56E9;
+}
+
+.bi-at{
+    color: #AA56E9;
+
+}
+
+.bi-telephone{
+    color: #AA56E9;
+}
+
+.search-icon{
+    color: #AA56E9;
+    position: absolute;
+    top: 50%!important;
+    right: 0!important;
+    transform: translateY(-50%)!important;
+    margin-right: 1rem!important;
+    z-index: 2;
+}
+
+.liker-icon{
+    font-size: 1.25rem;
+    font-weight: 300;
+    margin-right: 0.5rem!important;
+}
+
+.icons-socials {
+    color: #aa56e9;
+    background-color: #f7eefd;
+    border-color: #e9ecef;
+    padding: 10px;
+    border-radius: 8px;
+    text-align: center;
+}

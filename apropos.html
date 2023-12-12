@@ -3,16 +3,21 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Films du parc Monceau</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <title>A propos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <header class="header navbar navbar-expand-lg bg-light navbar-sticky"> 
+    <header class="header navbar navbar-expand-lg"> 
       <!-- Positionner un élément en haut de la fenêtre, d'un bord à l'autre, mais seulement après l'avoir fait défiler. -->
       <!-- La navigation reste présente quand on défile la page -->
       <div class="container px-3">
         <a href="index.html" class="navbar-brand pe-3">
-          <img src="images/logo.png" width="167" alt="Films du Parc Monceau">
+          <img src="images/logo-les-films-de-plein-air.png" width="167" alt="Films du Parc Monceau">
         </a>
         <div id="navbarNav" class="offcanvas offcanvas-end">
           <!-- Offcanvas inclut la prise en charge d'un en-tête avec un bouton de fermeture -->
@@ -38,11 +43,11 @@
                   <div class="d-lg-flex">
                     <div class="mega-dropdown-column pt-lg-3 pb-lg-4">
                       <ul class="list-unstyled mb-0">
-                        <li><a href="index.html" class="dropdown-item">Tous</a></li>
+                        <li><a href="touslesfilms.html" class="dropdown-item">Tous</a></li>
                         <li><a href="#" class="dropdown-item">Action</a></li>
                         <li><a href="#" class="dropdown-item">Aventure</a></li>
-                        <li><a href="#" class="dropdown-item d-flex align-items-center">Animation</a></li>
-                        <li><a href="#" class="dropdown-item d-flex align-items-center">Biopic</a></li>
+                        <li><a href="#" class="dropdown-item">Animation</a></li>
+                        <li><a href="#" class="dropdown-item">Biopic</a></li>
                         <li><a href="#" class="dropdown-item">Comédie</a></li>
                         <li><a href="#" class="dropdown-item">Comédie dramatique</a></li>
                         <li><a href="#" class="dropdown-item">Comedie musicale </a></li>
@@ -69,151 +74,286 @@
               <li class="nav-item">
                 <a href="actualites.html" class="nav-link">Actualités</a>
               </li>
-              <li class="nav-item">
-                <a href="contact.html" class="nav-link">Contact</a>
-              </li>
+
+
+             
+            
+        
             </ul>
           </div>
+  
         </div>
-        <!-- Rechercher un film... -->
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Rechercher</button>
-        </form>
         <!-- Il apparaît quand on est en version mobile -->
         <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <a href="contact.html" class="btn btn-primary">
+         Nous contacter
+        </a>
     
       </div>
-    </header>
+    </header> 
 
 
-    
-    <div class="container position-relative zindex-5 pt-5">
-        <div class="row">
-          <div class="col-lg-6">
-            
+    <!-- A propos -->
+  <div class="background-apropos">
+    <section class="container section-page-apropos">
+      <div class="row">
+     
+        <div class="col-lg-6 bloc-apropos">
             <!-- Breadcrumb -->
-            <nav class="pt-md-2 pt-lg-3 pb-4 pb-md-5 mb-xl-4" aria-label="breadcrumb">
-              <ol class="breadcrumb mb-0">
-                <li class="breadcrumb-item">
-                  <a href="index.html"><i class="bx bx-home-alt fs-lg me-1"></i>Accueil</a>
-                </li>
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a class="breadcrumb-link" href="accueil.html"><i class="bi bi-house fs-lg me-1"></i>Accueil</a></li>
                 <li class="breadcrumb-item active" aria-current="page">A propos</li>
-              </ol>
-            </nav>
+            </ol>
+        </nav>       
 
-            <!-- Text -->
-            <h1 class="pb-2 pb-md-3">A propos</h1>
-            <p class="fs-xl pb-4 mb-1 mb-md-2 mb-lg-3" style="max-width: 526px;">Cet été, le Festival Les Films de Plein Air commence en beauté 
-                au parc Monceau. Dès le mois d’août, des projections de films 
-                d’auteur seront organisées au coeur de ce jardin d’agrément 
-                situé dans le quartier de l’Europe du 8ᵉ arrondissement de Paris.
-                L’accès aux projections sera gratuit et ouvert à tous.</p>
+          <!-- Text -->
+          <h1>A propos</h1>
+          <br>
+          <p>
+            Cet été, le Festival Les Films de Plein Air commence en beauté au parc Monceau. Dès le mois d’août, des projections de films d’auteur seront organisées au coeur de ce jardin d’agrément situé dans le quartier de l’Europe du 8ᵉ arrondissement de Paris. 
+            L’accès aux projections sera gratuit et ouvert à tous.
+          </p>
+          <p>Envie de vous faire une toile sous les étoiles ? L’été, rien de mieux que de s’offrir une séance de cinéma en plein air à Paris.</p>
+          <br>
+          <a href="contact.html" class="btn btn-primary">Nous contacter</a>
+   
+          <div class="row bloc-apropos-infos">
+            <div class="col">
+              <img src="images/support.png" class="d-block" alt="Icon">
+              <h2>100%</h2>
+              <p>Commentaires positifs</p>
+            </div>
+            <div class="col">
+              <img src="images/statistics.png" class="d-block" alt="Icon">
+              <h2>760</h2>
+              <p>Films disponibles</p>
+            </div>
+            <div class="col">
+                <img src="images/download.svg" class="d-block" alt="Icon">
+              <h2>Accès</h2>
+              <p>Gratuit et ouvert à tous.</p>
+            </div>
+          </div>
+        </div>
 
-            <div class="row row-cols-3 pt-4 pt-md-5 mt-2 mt-xl-4">
+        <!-- Images -->
+        <div class="col-lg-6 bloc-apropos-photos">
+          <div class="row">
+            <div class="col col-apropos1">
+              <img src="images/apropos-img2.png" class="d-block" alt="Entrée du parc Monceau">
+              <img src="images/apropos-img3.png" class="d-block" alt="Pop corn">
+            </div>
+            <div class="col col-apropos2">
+              <img src="images/apropos-img1.png" class="d-block" alt="Panneau open">
+              <img src="images/apropos-img4.png" class="d-block" alt="Spectateurs">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </div>
+
+  <div class="background-partenaires">
+    <section class="container section-partenaires">
+        <div class="row">
+          <div class="col-md-5">
+            <h2>En partenariat avec :</h2>
+          </div>
+          <div class="col-lg-7 col-md-8">
+            <div class="row">
               <div class="col">
-                <h3 class="h2 mb-2">2,480</h3>
-                <p class="mb-0"><strong>Films</strong> disponibles</p>
+                <div class="partenaire01">
+                  <img src="images/Netflix_2014_logo.webp" alt="Netflix" class="d-block">
+                  <a href="#">Voir le site web</a>
+                </div>
               </div>
               <div class="col">
-                <h3 class="h2 mb-2">760</h3>
-                <p class="mb-0"><strong>Spectateurs</strong></p>
+                <div class="partenaire02">
+                  <img src="images/Disney+_logo.svg.png" alt="Disney+" class="d-block">
+                  <a href="#">Voir le site web</a>
+                
+                </div>
               </div>
               <div class="col">
-                <h3 class="h2 mb-2">1,200</h3>
-                <p class="mb-0"><strong>L’accès aux projections </strong> gratuit et ouvert à tous</p>
+                <div class="partenaire03">
+                  <img src="images/Amazon_Prime_Video_logo.svg" alt="Prime video" class="d-block">
+                  <a href="#">Voir le site web</a>
+  
+                </div>
+              </div>
+
+  
+            </div>
+          </div>
+        </div>
+    </section>
+
+  </div>
+    <!-- Nos partenaires -->
+ 
+
+
+      <!-- Testimonals-->
+      <section class="container section-testimonals">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="card card-gradient">
+              <span class="bg-gradient-primary d-none d-md-block"></span>
+              <div class="card-body d-flex ">
+                <h2>  Ce que nos spectateurs disent des films en Plein air au parc Monceau</h2>
               </div>
             </div>
           </div>
+          <!-- Carroussel -->
+          <div class="col-md-7">
 
-          <!-- Images -->
-          <div class="col-lg-6 mt-xl-3 pt-5 pt-lg-4">
-            <div class="row row-cols-2 gx-3 gx-lg-4">
-              <div class="col pt-lg-5 mt-lg-1">
-                <img src="images/parc-monceau-nuit.jpg" class="d-block rounded-3 mb-3 mb-lg-4" alt="Image">
+            <div id="carouselExampleIndicators" class="carousel slide carousel-testimonals" data-bs-ride="carousel">
+              <div class="d-flex bd-highlight">
+                <div class="p-2 flex-grow-1 bd-highlight">
+                  <span class="btn btn-quote">
+                    <i class="bi bi-quote"></i>
+                  </span>
+                </div>
+               
+           
+              </div>
+
+            
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
               
-              </div>
-        
-            </div>
-          </div>
-        </div>
-      </div>
-
-      
-
-    <footer class="footer dark-mode bg-dark border-top border-light pt-5 pb-4 pb-lg-5">
-      <div class="container pt-lg-4">
-        <div class="row pb-5">
-          <div class="col-lg-4 col-md-6">
-            <div class="navbar-brand text-dark p-0 me-0 mb-3 mb-lg-4">
-              <img src="images/logo-negatif.png" width="200" alt="logo-negatif">
-            </div>
-            <p class="fs-sm text-light opacity-70 pb-lg-3 mb-4">Cet été, le Festival Les Films de Plein Air commence en beauté 
-              au parc Monceau. Dès le mois d’août, des projections de films 
-              d’auteur seront organisées au coeur de ce jardin d’agrément 
-              situé dans le quartier de l’Europe du 8ᵉ arrondissement de Paris.
-              L’accès aux projections sera gratuit et ouvert à tous.</p>
-            <form class="needs-validation" novalidate="">
-              <label for="subscr-email" class="form-label">S’inscrire sur notre newsletter</label>
-              <div class="input-group">
-                <input type="email" id="subscr-email" class="form-control rounded-start ps-5" placeholder="Votre email" required="">
-                <i class="bx bx-envelope fs-lg text-muted position-absolute top-50 start-0 translate-middle-y ms-3 zindex-5"></i>
-                <div class="invalid-tooltip position-absolute top-100 start-0">Veuillez fournir une adresse email valide.</div>
-                <button type="submit" class="btn btn-primary">S'inscrire</button>
-              </div>
-            </form>
-          </div>
-          <div class="col-xl-6 col-lg-7 col-md-5 offset-xl-2 offset-md-1 pt-4 pt-md-1 pt-lg-0">
-            <div id="footer-links" class="row">
-              <div class="col-lg-4">
-                <h6 class="mb-2">
-                  <!-- useful-links se transforme en collapse sur la version mobile -->
-                  <!-- Utile pour plus de visibilité et d'ergonomie pour l'utilisateur -->
-                  <a href="#useful-links" class="d-block text-dark dropdown-toggle d-lg-none py-2" data-bs-toggle="collapse">Liens utiles</a>
-                </h6>
-                <div id="useful-links" class="collapse d-lg-block" data-bs-parent="#footer-links">
-                  <ul class="nav flex-column pb-lg-1 mb-lg-3">
-                    <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Accueil</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">A propos</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Films</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Actualités</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Contact</a></li>
-                  </ul>
-                  <ul class="nav flex-column mb-2 mb-lg-0">
-                    <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Termes & Conditions</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Politique de confidentialité</a></li>
-                  </ul>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <figure class="card card-testimonal h-100 border-0 bg-transparent">
+                    <blockquote class="card-body p-0 mb-0">
+                      <p class="fs-lg mb-0">Mi semper risus ultricies orci pulvinar in at enim orci. Quis facilisis nunc pellentesque in ullamcorper sit. Lorem blandit arcu sapien, senectus libero, amet dapibus cursus quam. Eget pellentesque eu purus volutpat adipiscing malesuada. Purus nisi, tortor vel lacus.</p>
+                    </blockquote>
+                    <figcaption class="card-footer border-0 d-flex align-items-center w-100 pb-2">
+                      <img src="images/avatar.png" width="60" class="rounded-circle" alt="Annette Black">
+                      <div class="ps-3">
+                        <h6 class="fw-semibold lh-base mb-0">Annette Black</h6>
+                        <span class="fs-sm text-muted">Strategic Advisor at Company LLC</span>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="carousel-item">
+                  <figure class="card card-testimonal h-100 border-0 bg-transparent">
+                    <blockquote class="card-body p-0 mb-0">
+                      <p class="fs-lg mb-0">Mi semper risus ultricies orci pulvinar in at enim orci. Quis facilisis nunc pellentesque in ullamcorper sit. Lorem blandit arcu sapien, senectus libero, amet dapibus cursus quam. Eget pellentesque eu purus volutpat adipiscing malesuada. Purus nisi, tortor vel lacus.</p>
+                    </blockquote>
+                    <figcaption class="card-footer border-0 d-flex align-items-center w-100 pb-2">
+                      <img src="images/avatar.png" width="60" class="rounded-circle" alt="Annette Black">
+                      <div class="ps-3">
+                        <h6 class="fw-semibold lh-base mb-0">Annette Black</h6>
+                        <span class="fs-sm text-muted">Strategic Advisor at Company LLC</span>
+                      </div>
+                    </figcaption>
+                  </figure>
+                </div>
+                <div class="carousel-item">
+                  <figure class="card card-testimonal h-100 border-0 bg-transparent">
+                    <blockquote class="card-body p-0 mb-0">
+                      <p class="fs-lg mb-0">Mi semper risus ultricies orci pulvinar in at enim orci. Quis facilisis nunc pellentesque in ullamcorper sit. Lorem blandit arcu sapien, senectus libero, amet dapibus cursus quam. Eget pellentesque eu purus volutpat adipiscing malesuada. Purus nisi, tortor vel lacus.</p>
+                    </blockquote>
+                    <figcaption class="card-footer border-0 d-flex align-items-center w-100 pb-2">
+                      <img src="images/avatar.png" width="60" class="rounded-circle" alt="Annette Black">
+                      <div class="ps-3">
+                        <h6 class="fw-semibold lh-base mb-0">Annette Black</h6>
+                        <span class="fs-sm text-muted">Strategic Advisor at Company LLC</span>
+                      </div>
+                    </figcaption>
+                  </figure>
                 </div>
               </div>
-              <div class="col-xl-4 col-lg-3">
-                <h6 class="mb-2">
-                  <!-- social-links se transforme en collapse sur la version mobile -->
-                  <a href="#social-links" class="d-block text-dark dropdown-toggle d-lg-none py-2" data-bs-toggle="collapse">Socials</a>
-                </h6>
-                <div id="social-links" class="collapse d-lg-block" data-bs-parent="#footer-links">
-                  <ul class="nav flex-column mb-2 mb-lg-0">
-                    <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Facebook</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">LinkedIn</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Twitter</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Instagram</a></li>
-                  </ul>
-                </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+
+         
+          
+             
+            </div>
+     
+          </div>
+        </div>
+      </section>
+      <footer class="footer  border-top border-light pt-5 pb-4 pb-lg-5">
+        <div class="container pt-lg-4">
+          <div class="row pb-5">
+            <div class="col-lg-4 col-md-6">
+              <div class="navbar-brand">
+                <img src="images/logo-les-films-de-plein-air.png" alt="logo">
               </div>
-              <div class="col-xl-4 col-lg-5 pt-2 pt-lg-0">
-                <h6 class="mb-2">Nous contacter</h6>
-                <a href="mailto:contact@gmail.com" class="fw-medium">contact@gmail.com</a>
+              <p>Cet été, le Festival Les Films de Plein Air commence en beauté au parc Monceau. Dès le mois d’août, des projections de films d’auteur seront organisées au coeur de ce jardin d’agrément situé dans le quartier de l’Europe du 8ᵉ arrondissement de Paris. L’accès aux projections sera gratuit et ouvert à tous.</p>
+              <form class="needs-validation" novalidate="">
+                <label for="subscr-email" class="form-label">S’inscrire sur notre newsletter</label>
+                <div class="input-group">
+                  <input type="email" id="subscr-email" class="form-control rounded-start ps-5" placeholder="Votre email" required="">
+                  <i class="bi bi-envelope fs-lg text-muted position-absolute top-50 start-0 translate-middle-y ms-3 zindex-5"></i>
+                  <div class="invalid-tooltip position-absolute top-100 start-0">Veuillez fournir une adresse email valide.</div>
+                  <button type="submit" class="btn btn-primary">S'inscrire</button>
+                </div>
+              </form>
+            </div>
+            <div class="col-xl-6 col-lg-7 col-md-5 offset-xl-2 offset-md-1 pt-4 pt-md-1 pt-lg-0">
+              <div id="footer-links" class="row">
+                <div class="col-lg-4">
+                  <h6 class="mb-2">
+                    <a href="#useful-links" class="d-block text-dark dropdown-toggle d-lg-none py-2" data-bs-toggle="collapse">Liens utiles</a>
+                  </h6>
+                  <div id="useful-links" class="collapse d-lg-block" data-bs-parent="#footer-links">
+                    <ul class="nav flex-column pb-lg-1 mb-lg-3">
+                      <li class="nav-item"><a href="index.html" class="footer-nav-link d-inline-block px-0 pt-1 pb-2">Accueil</a></li>
+                      <li class="nav-item"><a href="apropos.html" class="footer-nav-link d-inline-block px-0 pt-1 pb-2">A propos</a></li>
+                      <li class="nav-item"><a href="touslesfilms.html" class="footer-nav-link d-inline-block px-0 pt-1 pb-2">Films</a></li>
+                      <li class="nav-item"><a href="actualites.html" class="footer-nav-link d-inline-block px-0 pt-1 pb-2">Actualités</a></li>
+                    </ul>
+                    <ul class="nav flex-column mb-2 mb-lg-0">
+                      <li class="nav-item"><a href="#" class="footer-nav-link d-inline-block px-0 pt-1 pb-2">Termes &amp; Conditions</a></li>
+                      <li class="nav-item"><a href="#" class="footer-nav-link d-inline-block px-0 pt-1 pb-2">Politique de confidentialité</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-3">
+                  <h6 class="mb-2">
+                    <a href="#social-links" class="d-block text-dark dropdown-toggle d-lg-none py-2" data-bs-toggle="collapse">Socials</a>
+                  </h6>
+                  <div id="social-links" class="collapse d-lg-block" data-bs-parent="#footer-links">
+                    <ul class="nav flex-column mb-2 mb-lg-0">
+                      <li class="nav-item"><a href="#" class="footer-nav-link d-inline-block px-0 pt-1 pb-2">Facebook</a></li>
+                      <li class="nav-item"><a href="#" class="footer-nav-link d-inline-block px-0 pt-1 pb-2">LinkedIn</a></li>
+                      <li class="nav-item"><a href="#" class="footer-nav-link d-inline-block px-0 pt-1 pb-2">Twitter</a></li>
+                      <li class="nav-item"><a href="#" class="footer-nav-link d-inline-block px-0 pt-1 pb-2">Instagram</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-5 pt-2 pt-lg-0">
+                  <h6>Nous contacter</h6>
+                  <a class="mailto" href="mailto:email@example.com" class="fw-medium">lesfilmsenpleinair@gmail.com</a>
+                </div>
               </div>
             </div>
           </div>
+          <p class="nav d-block fs-xs text-center text-md-start pb-2 pb-lg-0 mb-0">
+            <span>© Tous droits réservés. Faite par </span>
+            <a class="nav-link d-inline-block p-0" href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" target="_blank" rel="noopener">Bootstrap Creative Studio</a>
+          </p>
         </div>
-        <p class="nav d-block fs-xs text-center text-md-start pb-2 pb-lg-0 mb-0">
-          <span class="text-light opacity-50">© Tous droits réservés. Réalisé par</span>
-          <a class="nav-link d-inline-block p-0" href="https://getbootstrap.com/" target="_blank" rel="noopener">Bootstrap studio creative</a>
-        </p>
-      </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>
 </html>

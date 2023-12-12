@@ -1,0 +1,42 @@
+/*----------------------------------- sélecteur universel du site -----------------------------*/
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin:auto;
+    padding: 0;
+    font-family: $font-family;
+  }
+  
+/*------------------------------------------------- les liens --------------------------------*/
+a{
+  text-decoration: none;
+  color: $colour-title;
+  &:hover {
+    text-decoration: none;
+    color: $colour-hover;
+  }
+}
+
+img, figure {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+
+
+.d-flex{
+  padding: 0;
+  margin: 0;
+}
+
+.bd-highlight{
+  padding: 0;
+  margin: 0;
+}
+

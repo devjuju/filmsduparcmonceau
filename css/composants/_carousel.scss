@@ -1,0 +1,42 @@
+/* carousel */
+.carousel-testimonals{
+    padding: 50px;
+    border: 0 !important;
+    box-shadow: 0 0.275rem 0.75rem -0.0625rem rgba(11,15,25,.06), 0 0.125rem 0.4rem -0.0625rem rgba(11,15,25,.03) !important;
+    .card-testimonal{
+        position: relative;
+        padding-top: 20px;
+    }
+}
+
+
+.carousel-control-next .carousel-control-prev {
+    top: 0;
+    bottom: 332px;
+    z-index: 1;
+    display: none;
+    align-items: end;
+    justify-content: right;
+    width: 92%;
+    padding-right: 50px;
+    color: #fff;
+    text-align: right;
+    background: 0 0;
+    border: 0;
+    opacity: 0.5;
+    transition: opacity 0.15s ease;
+}
+
+.carousel-control-next-icon{
+    background-color:  $colour-hover;
+    &:hover{
+        background-color:  $colour-badge;
+    }
+}
+
+.carousel-control-prev-icon{
+    background-color: $colour-hover;
+    &:hover{
+        background-color:  $colour-badge;
+    }
+}

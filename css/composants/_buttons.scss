@@ -1,0 +1,177 @@
+/* Boutons */
+.btn-primary {
+    font-family: $font-family;
+    font-size: 16px;
+    font-weight: $font-medium;
+    color: $colour-body;
+    background: $colour-button;
+    border: 1px solid $colour-hover;
+    box-shadow: $box-shadow ;
+    padding-top: 10px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    &:hover {
+        background: $colour-hover;
+        color: $colour-body;
+        border: 1px solid $colour-hover;
+    }
+}
+
+.btn-outline-light {
+    font-family: $font-family;
+    font-size: 16px;
+    font-weight: $font-medium;
+    color: #f8f9fa;
+    border: 1px solid $colour-body;
+    padding-top: 10px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-bottom: 10px;
+    &:hover {
+        background: #f8f9fa;
+        color: $colour-hover;
+        border-color: #f8f9fa;
+       
+    }
+    & i{
+        margin-left: 10px;
+    }
+    
+}
+
+.btn-outline-primary{
+    font-family: $font-family;
+    font-size: 16px;
+    font-weight: $font-medium;
+    color: $colour-hover ;
+    border: 2px solid $colour-hover;
+    padding-top: 10px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-bottom: 10px;
+    &:hover {
+        background: $colour-hover;
+        color: $colour-body;
+        border-color: $colour-hover;
+       
+    }
+    & span{
+        color: $colour-body;
+        background: $colour-hover;
+    }
+
+
+}
+
+
+
+.btn-outline-secondary{
+    font-family: $font-family;
+    font-size: 16px;
+    font-weight: $font-medium;
+    color: $colour-text ;
+    border: 1px solid #d4d7e5;
+    padding-top: 10px;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-bottom: 10px;
+    &:hover {
+        background: $colour-badge;
+        color: $colour-hover;
+        border-color: $colour-badge;
+       
+    }
+    & span{
+        color: $colour-body;
+        background: $colour-hover;
+    }
+
+
+}
+
+
+.btn-secondary{
+    color: $colour-hover;
+    background: $colour-badge;
+    border: 1px solid $colour-badge;
+    &:hover{
+        color: $colour-body;
+        background: $colour-hover;
+        border: 1px solid $colour-hover;
+    }
+}
+
+.btn-icon1{
+    border-radius: 50%!important;
+    position: absolute;
+    background-color:white;
+    color:$colour-hover;
+    margin-top: 1rem!important;
+    margin-right: 1rem!important;
+    right: 0!important;
+    top: 0!important;
+
+    &:hover{
+        background-color:$colour-hover;
+        color: white;
+    }
+}
+
+.btn-prev{
+    margin-right: 0.5rem!important;
+    background-color: $colour-body;
+    border-radius: 50%;
+    box-shadow: 0 0.275rem 0.75rem -0.0625rem rgba(11,15,25,.06), 0 0.125rem 0.4rem -0.0625rem rgba(11,15,25,.03) !important;
+    &:hover{
+        background-color: $colour-hover;
+        color: $colour-body;
+    }
+}
+
+.btn-quote{
+    color:$colour-body;
+    background: $colour-button;
+    pointer-events: none;
+    & i{
+        font-size: 25px;
+    }
+}
+
+.btn-like {
+    font-size: 18px;
+    border: 1px solid ;
+    border-radius: 8px;
+    color: $colour-body;
+    background: $colour-none;
+    box-shadow: $box-shadow ;
+    cursor: pointer;
+
+    &:hover {
+        font-size: 18px;
+        border: 1px solid ;
+        border-radius: 8px;
+        color: $colour-body;
+        background: $colour-hover;
+        box-shadow: $box-shadow ;
+        cursor: pointer;
+    }
+}
+
+
+
+.nbr-like{
+
+    color: #e9ecef;
+    background-color: #aa56e9;
+    border-color: #e9ecef;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+

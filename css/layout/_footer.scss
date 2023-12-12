@@ -1,0 +1,46 @@
+/* footer */
+footer{
+    background-color: #F0F4FF;
+    font-family: $font-family;
+    & img{
+        width: 200px;
+    }
+
+    & p{
+        margin-bottom: 20px;
+    }
+    color: $colour-title;
+    .footer-nav-link{
+        font-weight: $font-medium;
+        color: $colour-title;
+        &:hover{
+            text-decoration: none;
+            color: $colour-hover;  
+        }
+    }
+    .mailto{
+        font-weight: $font-medium;
+        text-decoration: none;
+        color: $colour-hover;
+        &:hover{
+            text-decoration: none;
+            color: $colour-title;  
+        }
+    }
+    .inscrire{
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        padding-top: 6px;
+        padding-left: 23px;
+        padding-right: 23px;
+        padding-bottom: 6px;
+
+    }
+    .nav-link{
+        color: $colour-hover;
+        &:hover{
+            color: $colour-title;
+            text-decoration: underline;
+        }
+    }
+}

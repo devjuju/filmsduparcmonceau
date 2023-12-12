@@ -1,0 +1,19 @@
+.breadcrumb {
+    font-weight: $font-medium;
+    .breadcrumb-link{
+        color: $colour-breadcrumb;
+        &:hover{
+            color: $colour-hover;
+        }
+    }
+    .breadcrumb-item.active {
+        color: $colour-hover;
+    }
+    .breadcrumb-item+.breadcrumb-item::before {
+        float: left;
+        padding-right: var(--bs-breadcrumb-item-padding-x);
+        color: $colour-hover;
+        content: var(--bs-breadcrumb-divider, "/");
+    }
+}
+

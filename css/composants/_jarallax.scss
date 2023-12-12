@@ -1,0 +1,162 @@
+/* jarallax */
+
+.jarallax-container-hero{
+    width: 100%; 
+    padding: 0;
+    color: $colour-body;
+    .jarallax-img-hero{
+        background-image: url("../../images/indiana-filtre.png");
+        max-width: none; 
+        width: 100%; 
+        height: 100%; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        .jarallax-content{
+            padding-top: 150px;
+            padding-bottom: 150px;
+            position:relative;
+            .groupe-buttons{
+                justify-content: center;
+                justify-content: flex-start!important;
+                & a{
+                    margin-right: 20px;
+                }
+            }
+        }
+        
+    }
+}
+
+
+.jarallax-container-film{
+    width: 100%; 
+    padding: 0;
+    margin-bottom: 50px;
+    .jarallax-img-film{
+        background-image: url("../../images/indiana-jones-et-le-cadran-de-la-destinee-photo-1481791.jpg");
+        max-width: none; 
+        width: 100%; 
+        height: 500px; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+}
+
+
+
+.parallax-container-actu{
+    width: 100%; 
+    padding: 0;
+    margin-bottom: 50px;
+    .parallax-img-actu{
+        background-image: url("../../images/article-img1.png");
+        max-width: none; 
+        width: 100%; 
+        height: 500px; 
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+}
+
+
+
+
+@media screen and (max-width: 375px){
+    .jarallax-container-hero{
+        width: 100%; 
+        padding: 0;
+        color: $colour-body;
+        .jarallax-img-hero{
+            background-image: url("../../images/indiana-filtre.png");
+            max-width: none; 
+            width: 100%; 
+            height: 100%; 
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            .jarallax-content{
+                padding-top: 199px;
+                padding-bottom: 50px;
+                position:relative;
+                .groupe-buttons{
+                    flex-direction: column;
+                    justify-content: center;
+                    justify-content: flex-start!important;
+                    & a{
+                        margin-right: 0px;
+                        margin-bottom: 20px;
+                    }
+                }
+            }
+            
+        }
+    }
+    
+
+  
+    .jarallax-container-film{
+        width: 100%; 
+        padding: 0;
+        margin-bottom: 0px;
+        .jarallax-img-film{
+            background-image: url("../../images/vue-face-du-mais-souffle-frais-couleur-cinema-film-table-rose.jpg");
+            max-width: none; 
+            width: 100%; 
+            height: 200px; 
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+    }
+}
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .jarallax-container-hero{
+        width: 100%; 
+        padding: 0;
+        color: $colour-body;
+        .jarallax-img-hero{
+            background-image: url("../../images/indiana-filtre.png");
+            max-width: none; 
+            width: 100%; 
+            height: 100%; 
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            .jarallax-content{
+                padding-top: 170px;
+                padding-bottom: 50px;
+                position:relative;
+                .groupe-buttons{
+                    
+                    justify-content: center;
+                    justify-content: flex-start!important;
+                    & a{
+                        margin-right: 20px;
+                        
+                    }
+                }
+            }
+            
+        }
+    }
+    
+
+
+}

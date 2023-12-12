@@ -1,0 +1,48 @@
+.pagination{
+    font-family: $font-family;
+    padding-top: 50px;
+    .chevron-icon{
+        color: $colour-hover;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 8px;
+        padding-bottom: 6px;
+    }
+    
+
+    .page-item{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .page-item.active .page-link {
+        z-index: 1;
+        color: #fff;
+        background-color: $colour-hover;
+        border-color: $colour-hover;
+        pointer-events: none;
+        border-radius: 4px;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 8px;
+        padding-bottom: 6px;
+     
+    }
+    .page-item .page-link {
+        background-color: $colour-none;
+        color: $colour-title;
+        border: 0px;
+        padding-left: 12px;
+        padding-right: 12px;
+        padding-top: 8px;
+        padding-bottom: 6px;
+        &:hover{
+            color: $colour-hover;
+            background-color: $colour-badge;
+            border-radius: 4px;
+        }
+    }
+    .page-item .chevron-icon .page-link{
+        color: $colour-hover;
+    }
+
+}

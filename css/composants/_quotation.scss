@@ -1,0 +1,25 @@
+/* quotation */
+.quotation{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    position:relative;
+    border-left: 2px solid $colour-hover;
+    & blockquote{
+        padding-left: 1rem!important;
+        font-weight: 500;
+        & strong{
+        text-transform: uppercase;
+        }
+    }
+    & figcaption{
+    padding-top: 16px;
+    padding-left: 16px;
+    & img{
+        width: 48px;
+    }
+    & h6{
+        margin-bottom: 0!important;
+        font-weight: $font-bold;
+    }
+    }
+}
