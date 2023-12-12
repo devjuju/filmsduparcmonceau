@@ -1,0 +1,554 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Page de films</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <header class="header navbar navbar-expand-lg"> 
+      <!-- Positionner un élément en haut de la fenêtre, d'un bord à l'autre, mais seulement après l'avoir fait défiler. -->
+      <!-- La navigation reste présente quand on défile la page -->
+      <div class="container px-3">
+        <a href="index.html" class="navbar-brand pe-3">
+          <img src="images/logo-les-films-de-plein-air.png" width="167" alt="Films du Parc Monceau">
+        </a>
+        <div id="navbarNav" class="offcanvas offcanvas-end">
+          <!-- Offcanvas inclut la prise en charge d'un en-tête avec un bouton de fermeture -->
+          <!-- Utile pour les mobiles-->
+          <div class="offcanvas-header border-bottom">
+            <h5 class="offcanvas-title">Menu</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a href="index.html" class="nav-link">Accueil</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="apropos.html" class="nav-link">A propos</a>
+              </li>
+              
+              <!-- MEGA MENU-->
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle active" data-bs-toggle="dropdown" aria-current="page">Films</a>
+                <div class="dropdown-menu p-0">
+                  <div class="d-lg-flex">
+                    <div class="mega-dropdown-column pt-lg-3 pb-lg-4">
+                      <ul class="list-unstyled mb-0">
+                        <li><a href="touslesfilms.html" class="dropdown-item">Tous</a></li>
+                        <li><a href="#" class="dropdown-item">Action</a></li>
+                        <li><a href="#" class="dropdown-item">Aventure</a></li>
+                        <li><a href="#" class="dropdown-item">Animation</a></li>
+                        <li><a href="#" class="dropdown-item">Biopic</a></li>
+                        <li><a href="#" class="dropdown-item">Comédie</a></li>
+                        <li><a href="#" class="dropdown-item">Comédie dramatique</a></li>
+                        <li><a href="#" class="dropdown-item">Comedie musicale </a></li>
+                        <li><a href="#" class="dropdown-item">Famille</a></li>
+                      </ul>
+                    </div>
+                    <div class="mega-dropdown-column pt-lg-3 pb-lg-4">
+                      <ul class="list-unstyled mb-0">
+                        <li><a href="#" class="dropdown-item">Fantastique</a></li>
+                        <li><a href="#" class="dropdown-item">Guerre</a></li>
+                        <li><a href="#" class="dropdown-item">Horreur</a></li>
+                        <li><a href="#" class="dropdown-item">Historique</a></li>
+                        <li><a href="#" class="dropdown-item">Romance</a></li>
+                        <li><a href="#" class="dropdown-item">Horreur</a></li>
+                        <li><a href="#" class="dropdown-item">Thriller</a></li>
+                        <li><a href="#" class="dropdown-item">Science fiction</a></li>
+                        <li><a href="#" class="dropdown-item">Western</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </li>
+               
+              <li class="nav-item">
+                <a href="actualites.html" class="nav-link">Actualités</a>
+              </li>
+
+
+             
+            
+        
+            </ul>
+          </div>
+  
+        </div>
+        <!-- Il apparaît quand on est en version mobile -->
+        <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a href="contact.html" class="btn btn-primary">
+         Nous contacter
+        </a>
+    
+      </div>
+    </header> 
+    <!-- Exemple de film-->
+    <section class="container section-infos-header">
+      <nav class="container pt-4 mt-lg-3" aria-label="breadcrumb">
+        <ol class="breadcrumb mb-0">
+          <li class="breadcrumb-item">
+            <a href="index.html"><i class="bi bi-house fs-lg me-1"></i>Accueil</a>
+          </li>
+          <li class="breadcrumb-item">
+            <a href="touslesfilms.html">Tous les films</a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">Indiana Jones et le Cadran de la Destinée</li>
+        </ol> 
+      </nav>
+        <h1 class="pb-3">Indiana Jones et le Cadran de la Destinée</h1>
+        <div class="d-flex flex-md-row flex-column align-items-md-center justify-content-md-between mb-3">
+          <div class="d-flex align-items-center flex-wrap">
+            <div class="badge border-end pe-3 me-3 mb-2">
+              <span>Aventure</span>
+            </div>
+            <div class="fs-sm border-end pe-3 me-3 mb-2">A l'affiche</div>
+            <div class="d-flex mb-2">
+              <div class="d-flex align-items-center me-3">
+                <i class="bi bi-hand-thumbs-up fs-base me-1"></i>
+                <span class="fs-sm">8</span>
+              </div>
+              <div class="d-flex align-items-center me-3">
+                <i class="bi bi-chat-left fs-base me-1"></i>
+                <span class="fs-sm">4</span>
+              </div>
+              <div class="d-flex align-items-center">
+                <i class="bi bi-share fs-base me-1"></i>
+                <span class="fs-sm">2</span>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex align-items-center position-relative ps-md-3 pe-lg-5 mb-2">
+            <img src="images/logo-sans2.png" class="rounded-circle" width="60" alt="Avatar">
+            <div class="ps-3">
+              <h6 class="mb-1">Réalisé par</h6>
+              <a href="#" class="fw-semibold stretched-link">James Mangold
+
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    
+        <section id="jarallax-container-0" class="jarallax-container-film" >
+        <div class="jarallax-img-film"></div>
+        </section>
+
+      <section class="container section-fiche-film">
+        <div class="row gy-4">
+
+          <!-- Content -->
+          <div class="col-lg-9">
+         
+          
+                <h2>A propos du film</h2>
+                <br>
+                <p>1969. Après avoir passé plus de dix ans à enseigner au Hunter College de New York, l'estimé docteur Jones, professeur d'archéologie, est sur le point de prendre sa retraite et de couler des jours paisibles.
+  
+                      Tout bascule après la visite surprise de sa filleule Helena Shaw, qui est à la recherche d'un artefact rare que son père a confié à Indy des années auparavant : le fameux cadran d'Archimède, 
+                      une relique qui aurait le pouvoir de localiser les fissures temporelles. En arnaqueuse accomplie, Helena vole l’objet et quitte précipitamment le pays afin de le vendre au plus offrant. Indy n'a d'autre choix que de se lancer à sa poursuite. Il ressort son fedora et son blouson de cuir pour une dernière virée...</p>
+
+                      <div class="bloc-infos">
+                        <h3>Informations</h3>
+                <div class="container">
+                  <div class="row">
+                    <div class="col">
+                      <p><strong>Réalisé par :</strong> James Mangold</p>
+                      <p><strong>Avec :</strong> Phoebe Waller-Bridge, Mads Mikkelsen, 
+                        Harrison Ford</p>
+                    </div>
+                    <div class="col">
+                      <p><strong>Nationalité :</strong> Etats-Unis</p>
+                      <p><strong>Date de sortie :</strong> 18 janvier 2016</p>
+                    </div>
+                  </div>
+                </div>
+
+                      </div>
+                
+         
+            <!-- Tags -->
+            <hr class="mb-4">
+            <div class="d-flex bd-highlight mb-3 bloc-tags">
+              <div class="p-0 bd-highlight tags-titre">
+                <strong>Tags associées :</strong>
+              </div>
+              <div class="p-2 bd-highlight">
+                <a href="#" class="btn btn-sm btn-outline-secondary me-2 mb-2">#Festival</a>
+                <a href="#" class="btn btn-sm btn-outline-secondary me-2 mb-2">#Evenements</a>
+                <a href="#" class="btn btn-sm btn-outline-secondary me-2 mb-2">#Films</a>
+              </div>
+            </div>
+            
+          
+          </div>
+
+          <!-- Sharing -->
+          <div class="col-lg-3 col-share">
+            <div class="aside-share">
+              <h6>Partager le film avec:</h6>
+              <div class="mb-4 pb-lg-3">
+                <a href="#" class="btn btn-secondary btn-linkedin me-2 mb-2" aria-label="LinkedIn">
+                  <i class="bi bi-linkedin"></i>
+                </a>
+                <a href="#" class="btn btn-secondary btn-facebook me-2 mb-2" aria-label="Facebook">
+                  <i class="bi bi-facebook"></i>
+                </a>
+                <a href="#" class="btn btn-secondary btn-twitter me-2 mb-2" aria-label="Twitter">
+                  <i class="bi bi-twitter"></i>
+                </a>
+                <a href="#" class="btn btn-secondary btn-instagram me-2 mb-2" aria-label="Instagram">
+                  <i class="bi bi-instagram"></i>
+                </a>
+              </div>
+          
+               <!-- Button -->
+               <div class="d-grid">
+                <a href="reservation.html" class="btn btn-outline-primary btn-lg">Voir la bande-annonce
+                 </a> 
+                 <br>
+                 <a href="reservation.html" class="btn btn-primary btn-lg">Réserver une séance</a>
+                 <br>
+                 <button type="button" class="btn btn-lg btn-outline-secondary">
+                    <i class="bi bi-hand-thumbs-up liker-icon"></i>
+                    Liker
+                    <span class="badge ms-3">8</span>
+                  </button>
+               </div>
+        
+
+               <p><i class="bi bi-arrow-right me-2"></i>L’accès aux projections est gratuit et ouvert à tous</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <section class="container section-commentaires">
+        <h2>4 commentaires</h2>
+        <div class="row bloc-commentaires">
+          <!-- Comments -->
+          <div class="col-lg-9">
+
+            <!-- Comment -->
+            <div class="comment">
+              <div class="d-flex align-items-center justify-content-between pb-2 mb-1">
+                <div class="d-flex align-items-center me-3">
+                  <img src="images/avatar.png" alt="Avatar">
+                  <div class="ps-3">
+                    <h6>Esther Howard</h6>
+                    <span>il y a 4 minutes</span>
+                  </div>
+                </div>
+                <a href="#">
+                  <i class="bi bi-reply"></i>
+                  Repondre
+                </a>
+              </div>
+              <p>Nibh enim porta ut augue felis, donec sit luctus. Quis ullamcorper dolor sit mauris. Hendrerit eu libero, eu tristique sodales ultrices etiam adipiscing. Donec viverra sodales arcu gravida nibh at. Neque lobortis quis porta integer et placerat lectus scelerisque. Velit eget malesuada morbi faucibus at sed euismod. Tortor, eu ut id tincidunt leo placerat luctus.</p>
+            </div>
+
+            <hr class="my-2">
+
+            <!-- Comment -->
+            <div class="comment">
+              <div class="d-flex align-items-center justify-content-between pb-2 mb-1">
+                <div class="d-flex align-items-center me-3">
+                  <img src="images/avatar.png" alt="Avatar">
+                  <div class="ps-3">
+                    <h6>Ralph Edwards</h6>
+                    <span>24 mars à 8h20</span>
+                  </div>
+                </div>
+                <a href="#">
+                  <i class="bi bi-reply fs-lg me-2"></i>
+                  Repondre
+                </a>
+              </div>
+              <p>Eget amet, ac scelerisque tellus sed. Sapien duis sit neque pulvinar. Est sit aenean nisl etiam donec mattis ut diam. Luctus massa eu nunc aliquam viverra tempus, eu amet, luctus. Ac faucibus vestibulum eu lacus. Ullamcorper sem ultrices tincidunt pharetra?</p>
+
+              <!-- Comment reply -->
+              <div class="comment-reply">
+                <div class="d-flex align-items-center justify-content-between ps-3 pb-2 mb-1">
+                  <div class="d-flex align-items-center me-3">
+                    <img src="images/avatar.png" alt="Avatar">
+                    <div class="ps-3">
+                      <h6>Albert Flores</h6>
+                      <span>24 mars à 8h20</span>
+                    </div>
+                  </div>
+                  <a href="#">
+                    <i class="bi bi-reply"></i>
+                    Repondre
+                  </a>
+                </div>
+                <p>
+                  <a href="#">@Ralph Edwards</a> Vulputate malesuada amet, consequat ullamcorper. Orci, cras maecenas in sit purus pellentesque. Ridiculus blandit pellentesque eget arcu morbi nisl. Morbi volutpat adipiscing sapien sed ut tempor.</p>
+              </div>
+            </div>
+
+            <hr class="my-2">
+
+            <!-- Comment -->
+            <div class="comment">
+              <div class="d-flex align-items-center justify-content-between pb-2 mb-1">
+                <div class="d-flex align-items-center me-3">
+                  <img src="images/avatar.png" alt="Avatar">
+                  <div class="ps-3">
+                    <h6>Cameron Williamson</h6>
+                    <span>24 mars à 8h20</span>
+                  </div>
+                </div>
+                <a href="#">
+                  <i class="bi bi-reply"></i>
+                  Repondre
+                </a>
+              </div>
+              <p>Mattis id ut sed arcu metus elit faucibus condimentum aliquam. Nam adipiscing diam et suspendisse. Sagittis massa maecenas laoreet nulla amet nunc sagittis, pulvinar neque. Duis imperdiet ipsum suspendisse massa lectus habitasse. Id ante volutpat hendrerit augue parturient eget. Ac vitae posuere leo morbi vitae at hac lectus. Nibh neque quam quis amet mattis sit. Faucibus risus at sit tempus ut.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+ 
+      <section class="container">
+        <div class="row gy-5">
+          <!-- Comment form -->
+          <div class="col-lg-9 bloc-comment-form">
+            <div class="comment-form">
+              <div class="comment-form-content">
+                <h2>Laissez un commentaire</h2>
+                <form class="row gy-4 needs-validation" novalidate="">
+                  <div class="col-sm-6 col-12">
+                    <label for="c-name" class="form-label fs-base">Nom</label>
+                    <input id="c-name" type="text" class="form-control form-control-lg" required="">
+                    <span class="invalid-tooltip"> S'il vous plaît entrez votre nom.</span>
+                  </div>
+                  <div class="col-sm-6 col-12">
+                    <label for="c-email" class="form-label fs-base">Email</label>
+                    <input id="c-email" type="email" class="form-control form-control-lg" required="">
+                    <span class="invalid-tooltip">Veuillez fournir une adresse email valide.</span>
+                  </div>
+                  <div class="col-12">
+                    <label for="c-comment" class="form-label fs-base">Commentaire</label>
+                    <textarea id="c-comment" class="form-control form-control-lg" rows="3" placeholder="
+                    Tapez votre commentaire ici..." required=""></textarea>
+                    <span class="invalid-tooltip">S'il vous plaît, entrez votre commentaire.</span>
+                  </div>
+                  <div class="col-12">
+                    <div class="form-check">
+                      <input id="c-save" type="checkbox" class="form-check-input">
+                      <label for="c-save" class="form-check-label">Enregistrez mon nom et mon email dans ce navigateur pour la prochaine fois que je commenterai.</label>
+                    </div>
+                  </div>
+                  <div class="col-12">
+                    <button type="submit" class="btn btn-lg btn-primary">
+                      Poster un commentaire</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+          <!-- Subscription form + Sharing -->
+          <div class="col-lg-3 col-newsletter">
+            <div class="aside-newsletter">
+              <div class="row aside-newsletter-content">
+                <!-- Subscription form -->
+                <div class="col-lg-12 col-sm-7 col-11">
+                  <h6>Vous appréciez ce film ? Rejoignez notre newsletter</h6>
+                  <form class="needs-validation" novalidate="">
+                    <div class="input-group">
+                      <input type="email" id="subscr-email" class="form-control rounded-start ps-5" placeholder="Votre email" required="">
+                      <i class="bi bi-envelope fs-lg text-muted position-absolute top-50 start-0 translate-middle-y ms-3 zindex-5"></i>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">S'inscrire</button>
+                  </form>
+                </div>
+
+                <!-- Sharing -->
+                <div class="col-lg-12 col-sm-7 col-11 col-forget-share">
+                  <h6>N'oubliez pas de le partager</h6>
+                  <div class="mb-4 pb-lg-3">
+                    <a href="#" class="btn btn-icon btn-secondary btn-linkedin me-2 mb-2" aria-label="LinkedIn">
+                      <i class="bi bi-linkedin"></i>
+                    </a>
+                    <a href="#" class="btn btn-icon btn-secondary btn-facebook me-2 mb-2" aria-label="Facebook">
+                      <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="#" class="btn btn-icon btn-secondary btn-twitter me-2 mb-2" aria-label="Twitter">
+                      <i class="bi bi-twitter"></i>
+                    </a>
+                    <a href="#" class="btn btn-icon btn-secondary btn-instagram me-2 mb-2" aria-label="Instagram">
+                      <i class="bi bi-instagram"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="container section-produits-lies">
+        <div class="d-flex flex-sm-row flex-column align-items-center justify-content-between mb-4 pb-1 pb-md-3">
+          <h2 class="h1 mb-sm-0">Films liés</h2>
+          <a href="touslesfilms.html" class="btn btn-lg btn-outline-primary ms-4">
+            Voir tout
+            <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+
+         <!-- Films liés -->
+         <div class="row row-cols-lg-3 row-cols-sm-2 row-cols-1 gy-md-4 gy-2">
+
+          <!-- Item -->
+          <div class="col pb-3">
+            <article class="card card-grid">
+              <div class="card-img">
+                <a href="film.html" class="btn btn-icon1">
+                  <i class="bi-arrow-right"></i>
+                </a>
+                <img src="images/card-grid-film5.png" class="card-img-top" alt="Image">
+              </div>
+              <div class="card-body pb-4">
+                <div class="d-flex align-items-center justify-content-between mb-3">
+                  <a href="#" class="badge">Aventure</a>
+                    <span>A l'affiche</span>
+                </div>
+                <h3>
+                  <a href="film.html">Indiana Jones et le Cadran de la Destinée</a>
+                </h3>
+              </div>
+            </article>
+          </div>
+
+          <!-- Item -->
+          <div class="col pb-3">
+            <article class="card card-grid">
+              <div class="card-img">
+                <a href="film.html" class="btn btn-icon1">
+                  <i class="bi-arrow-right"></i>
+                </a>
+                <img src="images/card-grid-film7.png" class="card-img-top" alt="Image">
+              </div>
+              <div class="card-body pb-4">
+                <div class="d-flex align-items-center justify-content-between mb-3">
+                  <a href="#" class="badge">Aventure</a>
+                    <span>A l'affiche</span>
+                </div>
+                <h3>
+                  <a href="film.html">Indiana Jones et le Cadran de la Destinée</a>
+                </h3>
+              </div>
+            </article>
+          </div>
+
+          <!-- Item -->
+          <div class="col pb-3">
+            <article class="card card-grid">
+              <div class="card-img">
+                <a href="film.html" class="btn btn-icon1">
+                  <i class="bi-arrow-right"></i>
+                </a>
+                <img src="images/card-grid-film8.png" class="card-img-top" alt="Image">
+              </div>
+              <div class="card-body pb-4">
+                <div class="d-flex align-items-center justify-content-between mb-3">
+                  <a href="#" class="badge">Aventure</a>
+                    <span>A l'affiche</span>
+                </div>
+                <h3>
+                  <a href="film.html">Indiana Jones et le Cadran de la Destinée</a>
+                </h3>
+              </div>
+            </article>
+          </div>
+
+  
+    
+
+          
+
+         
+        </div>
+
+      </section>
+
+      <footer class="footer  border-top border-light pt-5 pb-4 pb-lg-5">
+        <div class="container pt-lg-4">
+          <div class="row pb-5">
+            <div class="col-lg-4 col-md-6">
+              <div class="navbar-brand">
+                <img src="images/logo-les-films-de-plein-air.png" alt="logo">
+              </div>
+              <p>Cet été, le Festival Les Films de Plein Air commence en beauté au parc Monceau. Dès le mois d’août, des projections de films d’auteur seront organisées au coeur de ce jardin d’agrément situé dans le quartier de l’Europe du 8ᵉ arrondissement de Paris. L’accès aux projections sera gratuit et ouvert à tous.</p>
+              <form class="needs-validation" novalidate="">
+                <label for="subscr-email" class="form-label">S’inscrire sur notre newsletter</label>
+                <div class="input-group">
+                  <input type="email" id="subscr-email" class="form-control rounded-start ps-5" placeholder="Votre email" required="">
+                  <i class="bi bi-envelope fs-lg text-muted position-absolute top-50 start-0 translate-middle-y ms-3 zindex-5"></i>
+                  <div class="invalid-tooltip position-absolute top-100 start-0">Veuillez fournir une adresse email valide.</div>
+                  <button type="submit" class="btn btn-primary">S'inscrire</button>
+                </div>
+              </form>
+            </div>
+            <div class="col-xl-6 col-lg-7 col-md-5 offset-xl-2 offset-md-1 pt-4 pt-md-1 pt-lg-0">
+              <div id="footer-links" class="row">
+                <div class="col-lg-4">
+                  <h6 class="mb-2">
+                    <a href="#useful-links" class="d-block text-dark dropdown-toggle d-lg-none py-2" data-bs-toggle="collapse">Liens utiles</a>
+                  </h6>
+                  <div id="useful-links" class="collapse d-lg-block" data-bs-parent="#footer-links">
+                    <ul class="nav flex-column pb-lg-1 mb-lg-3">
+                      <li class="nav-item"><a href="index.html" class="footer-nav-link d-inline-block px-0 pt-1 pb-2">Accueil</a></li>
+                      <li class="nav-item"><a href="apropos.html" class="footer-nav-link d-inline-block px-0 pt-1 pb-2">A propos</a></li>
+                      <li class="nav-item"><a href="touslesfilms.html" class="footer-nav-link d-inline-block px-0 pt-1 pb-2">Films</a></li>
+                      <li class="nav-item"><a href="actualites.html" class="footer-nav-link d-inline-block px-0 pt-1 pb-2">Actualités</a></li>
+                    </ul>
+                    <ul class="nav flex-column mb-2 mb-lg-0">
+                      <li class="nav-item"><a href="#" class="footer-nav-link d-inline-block px-0 pt-1 pb-2">Termes &amp; Conditions</a></li>
+                      <li class="nav-item"><a href="#" class="footer-nav-link d-inline-block px-0 pt-1 pb-2">Politique de confidentialité</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-3">
+                  <h6 class="mb-2">
+                    <a href="#social-links" class="d-block text-dark dropdown-toggle d-lg-none py-2" data-bs-toggle="collapse">Socials</a>
+                  </h6>
+                  <div id="social-links" class="collapse d-lg-block" data-bs-parent="#footer-links">
+                    <ul class="nav flex-column mb-2 mb-lg-0">
+                      <li class="nav-item"><a href="#" class="footer-nav-link d-inline-block px-0 pt-1 pb-2">Facebook</a></li>
+                      <li class="nav-item"><a href="#" class="footer-nav-link d-inline-block px-0 pt-1 pb-2">LinkedIn</a></li>
+                      <li class="nav-item"><a href="#" class="footer-nav-link d-inline-block px-0 pt-1 pb-2">Twitter</a></li>
+                      <li class="nav-item"><a href="#" class="footer-nav-link d-inline-block px-0 pt-1 pb-2">Instagram</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-xl-4 col-lg-5 pt-2 pt-lg-0">
+                  <h6>Nous contacter</h6>
+                  <a class="mailto" href="mailto:email@example.com" class="fw-medium">lesfilmsenpleinair@gmail.com</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <p class="nav d-block fs-xs text-center text-md-start pb-2 pb-lg-0 mb-0">
+            <span>© Tous droits réservés. Faite par </span>
+            <a class="nav-link d-inline-block p-0" href="https://getbootstrap.com/docs/5.0/getting-started/introduction/" target="_blank" rel="noopener">Bootstrap Creative Studio</a>
+          </p>
+        </div>
+      </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
